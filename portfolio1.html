@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: khaki;
+        }
+        header{
+            position: sticky;
+            left:0;
+            top:0;
+        }
+
+        nav,header {
+            width:100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(5, 159, 110);
+            font-weight: bolder;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            margin: 0 20px;
+            color: white;
+            /* position: fixed; */
+        }
+
+        nav ul li a:hover {
+            color: rgb(14, 14, 182);
+            font-size: 15px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+
+        .firstsection div {
+            width: 30%;
+
+        }
+
+        .leftsection {
+            font-size: 3rem;
+            color: black;
+            text-shadow: 3px 2px 1px whitesmoke
+        }
+
+        .rightsection {
+            width: 80%;
+            margin: 5px;
+
+        }
+
+        .sp {
+            color: blueviolet;
+        }
+
+       
+
+        /* about */
+        #about{
+            padding: 80px 0;
+            columns: #ababab ;
+        } 
+
+        .row{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .about-col-1{
+            flex-basis: 15%;
+
+        }
+
+        .about-col-1 img{
+              border-radius: 15px
+        }
+
+        #skills{
+            text-align:center;
+        }
+
+        #Project{
+            display: flex;
+            flex-direction: row;
+            border: 5PX solid aquamarine;
+            margin: 10px;padding: 10px;
+            background-color: aqua;
+        }
+
+        #contact{
+            background-color: rgb(56, 51, 51);
+            color: burlywood;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            border-top-right-radius:20px ;
+        }
+
+        #footer{
+            color: green;
+            text-align: end;
+            margin: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav>
+            <div class="left">Anand Patel</div>
+            <div class="right">
+                <ul>
+                    <!-- <li><a href="#home">Home</a></li> -->
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#Project">Project</a></li>
+                    <li><a href="# contact">Contact Me</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <!-- main -->
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi, I'm <span class="sp">Anand</span>
+                <br>I Am Web Developer.
+            </div>
+
+            <div class="rightsection"><img src="developer-2.png" alt="image" style="width: 250px;"></div>
+
+
+        </section>
+
+
+    </main>
+<!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image2.jpeg" style="width: 160px;">
+                    <DIV class="about-col-1">
+                    <h3> <a href="@gmail.com" target="_blank"><img src="images-gmail.png" alt ="gmail" width="20px">anand1998ap@gmail.com</a>             <img src="phone.jpg" alt ="mobile" width="20px">8070078630</a> </h3>
+
+                    <h3> <a href="https://www.linkedin.com/in/anandpatel98" target="_blank"><img src="image-linkedin.png" alt="linkedin" width="20px">Linkedin</a> </h3>
+                    <h3><img src="location.gif" alt ="location" width="20px">R/N-1 Patel Niwas, S.N. Dubey RoadRa,Rwal Pada <br>Dahisar (East) 400086,Mumbai,Maharastra</a>    </h3>   
+                </DIV>
+                </div>
+                <div class="about-col-2">
+                    <h1 style="font-size: 40px; font-weight: 100px; color:#fff">About me</h1><BR>
+                    <p>I'm a web Developer with my exprience in HTML, CSS & JAVASCRIPT.
+                        I like to Creating a responsive  webside.
+                    </p><br>
+                    <h3><mark>EDUCATION</mark></h3><BR>
+    <li>B.E.- (Instrumentation Engineering)
+        Vidyavaridhi’s College of Engineering and 
+        Technology (VCET)
+        Vasai, Maharashtra </li>
+        <h3>Grade:63%</h3>
+
+
+    <li> HSC-SVP Junior College
+        Mumbai, Maharashtra </li>
+        <h3>Grade:56%</h3>
+
+
+
+    <li> SSC-
+        Shakti Sewa Sangh Madhyamik Vidyalaya
+        Mumbai, Maharashtra 
+        </li>
+        <h3>Grade:72%</h3>
+
+                      
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- skills -->
+<section id="skills">
+    <h1>Skills</h1>
+    <h2>Programing Language:</h2>
+    <p>JAVASCRIPT</p><BR>
+    
+    <h3>Fron End Technogoly:</h3>
+     HTML5 & CSS<BR>
+     
+     <h3>Data Base:</h3>
+        MySQL  <BR>
+
+      <H3>Other Tool & Tech:</H3>
+      Boostrap5 & jQuery %Git
+      <br>
+     
+      
+      <a href="Anand Patel.pdf" id="cv" download>download CV</a>
+
+
+
+</section>
+
+<!-- project -->
+
+<section id="Project"> 
+    <div><h2> My Project</h2>
+    <h3>Web Based Calculator</h3>
+        <a href="cal.html" alt="calculator" target="_blank">Project1</a>
+    
+
+ <h3>pagination</h3>
+       <a href="pagination.html" alt="pagination" target="_blank"> Project2</a> 
+ 
+       <h3>theme-change background</h3>
+        <a href="theme-change.html " target="_blank"> project3</a>
+
+    </div>
+</section><br>
+
+     <!-- contact -->
+     <section id="contact">
+        <h2> Contact Me</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name"><br><br>
+            <input type="email" name="email" placeholder="Your Email"><br><br>
+            <textarea name="message" placeholder="Your Meassage" cols="30" rows="6" ></textarea><br><br>
+            <input type="submit" value="send message">
+
+        </form>
+    </section>
+
+    <footer id="footer">
+        <p>&copy; my protfolio. all rights reserved.</p>
+        <p style="color: black;">DATE: &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Signature.</p>
+    </footer>
+
+
+</body>
+
+</html>
+
+
+
+
